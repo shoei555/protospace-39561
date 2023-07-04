@@ -7,4 +7,5 @@ class Prototype < ApplicationRecord
   validates :catch_copy, presence: true
   validates :concept, presence: true
   validates :user_id, presence: true
+
 end
