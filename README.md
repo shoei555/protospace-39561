@@ -55,7 +55,7 @@ Things you may want to cover:
 - belongs_to :user
 - has_many :comments
 
-## room_users テーブル
+## comments テーブル
 
 | Column    | Type       | Options                        |
 | --------- | ---------- | ------------------------------ |
