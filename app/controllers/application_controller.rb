@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
   before_action :configure_permitted_parameters, if: :devise_controller?
-  before_action :move_to_index, except: [:index, :new ]
+  before_action :move_to_index, except: [:index, :new ,:create]
 
   private
   def configure_permitted_parameters  # メソッド名は慣習
